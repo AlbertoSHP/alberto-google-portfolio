@@ -1,0 +1,56 @@
+{
+  "Welcome": {
+    "title": "Welcome to Albert's Portfolio"
+  },
+  "Search": {
+    "resultType": {
+      "all": "All",
+      "experiences": "Experiences",
+      "education": "Education",
+      "skills": "Skills",
+      "projects": "Projects",
+      "search": "Search"
+    }
+  },
+  "months": {
+    "January": "January",
+    "February": "February",
+    "March": "March",
+    "April": "April",
+    "May": "May",
+    "June": "June",
+    "July": "July",
+    "August": "August",
+    "September": "September",
+    "October": "October",
+    "November": "November",
+    "December": "December",
+    "Current": "Current"
+  },
+  "filters": {
+    "filterBy": "Filter by",
+    "sortBy": "Sort by"
+  },
+  "skills": {
+    "levelTitle": "Level",
+    "typeTitle": "Type",
+    "levelAsc": "Level up",
+    "levelDesc": "Level down",
+    "typeAsc": "Type up",
+    "typeDesc": "Type down",
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced",
+    "expert": "Expert"
+  },
+  "search": {
+    "placeholder": "Search for skills, projects, experience...",
+    "noResults": "No results found",
+    "searchLabel": "Search",
+    "feelingLucky": "I'm feeling lucky",
+    "advice": "Tip: Use keywords like",
+    "resultsFor": "Results for",
+    "matchedKeywords": "Matched keywords",
+    "resultsFound": "{{count}} results found"
+  }
+}

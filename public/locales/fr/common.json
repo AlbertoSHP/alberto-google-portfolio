@@ -1,0 +1,56 @@
+{
+  "Welcome": {
+    "title": "Bienvenue sur le Portfolio d'Albert"
+  },
+  "Search": {
+    "resultType": {
+      "all": "Tous",
+      "experiences": "Expériences",
+      "education": "Éducation",
+      "skills": "Compétences",
+      "projects": "Projets",
+      "search": "Recherche"
+    }
+  },
+  "months": {
+    "January": "Janvier",
+    "February": "Février",
+    "March": "Mars",
+    "April": "Avril",
+    "May": "Mai",
+    "June": "Juin",
+    "July": "Juillet",
+    "August": "Août",
+    "September": "Septembre",
+    "October": "Octobre",
+    "November": "Novembre",
+    "December": "Décembre",
+    "Current": "Actuel"
+  },
+  "filters": {
+    "filterBy": "Filtrer par",
+    "sortBy": "Trier par"
+  },
+  "skills": {
+    "levelTitle": "Niveau",
+    "typeTitle": "Type",
+    "levelAsc": "Niveau croissant",
+    "levelDesc": "Niveau décroissant",
+    "typeAsc": "Type croissant",
+    "typeDesc": "Type décroissant",
+    "beginner": "Débutant",
+    "intermediate": "Intermédiaire",
+    "advanced": "Avancé",
+    "expert": "Expert"
+  },
+  "search": {
+    "placeholder": "Rechercher des compétences, des projets, de l'expérience...",
+    "noResults": "Aucun résultat trouvé",
+    "searchLabel": "Recherche",
+    "feelingLucky": "Je me sens chanceux",
+    "advice": "Conseil : Utilisez des mots-clés comme ",
+    "resultsFor": "Résultats pour",
+    "matchedKeywords": "Mots-clés correspondants",
+    "resultsFound": "{{count}} résultats trouvés"
+  }
+}

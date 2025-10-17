@@ -1,0 +1,13 @@
+.google-search-bar {
+    width: 584px;
+  }
+
+@media screen and (max-width: var(--breakpoint-md)) {
+  .portfolio-logo {
+    display: none;
+  }
+  .google-search-bar {
+    margin-left: 0;
+    width: 100%;
+  }
+}

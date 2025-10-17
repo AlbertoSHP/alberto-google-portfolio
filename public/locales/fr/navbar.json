@@ -1,0 +1,33 @@
+{
+    "shortcuts": {
+        "cv": "CV",
+        "experiences": "Expérience",
+        "projects": "Projets",
+        "education": "Éducation",
+        "skills": "Compétences"
+    },
+    "profile": {
+        "firstTitle": "¡Bonjour, bienvenue dans mon portfolio de style Google !",
+        "secondTitle": "Je suis Alberto, Senior Frontend Developer",
+        "thirdTitle": "Je vis à Madrid, Espagne",
+        "fourthTitle": "Positions précédentes : Fullstack Developer, Backend Developer",
+        "downloadCV": "Télécharger CV",
+        "contactMe": "Contactez-moi",
+        "language": "Langue",
+        "selectLanguage": "Sélectionner la langue"
+    },
+    "contactForm": {
+        "title": "Formulaire de contact",
+        "email": "E-Mail",
+        "emailPlaceholder": "Votre E-Mail",
+        "messagePlaceholder": "Votre Message",
+        "message": "Message",
+        "send": "Envoyer",
+        "cancel": "Annuler",
+        "validation": {
+            "emailRequired": "E-Mail est requis",
+            "emailInvalid": "Adresse E-Mail invalide",
+            "messageRequired": "Message est requis"
+        }
+    }
+}

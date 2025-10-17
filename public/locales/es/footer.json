@@ -1,0 +1,14 @@
+{
+    "language":{
+        "languageDetected":"Idioma detectado:",
+        "spanish":"Español"
+    },
+    "about":{
+        "aboutMe":"Sobre mí",
+        "welcome": "¡Bienvenido a mi portafolio!",
+        "description":"¡Hola! Soy Alberto, un apasionado desarrollador frontend senior con sede en Madrid, España. Con una amplia experiencia en el desarrollo de aplicaciones web modernas y un sólido conocimiento en desarrollo fullstack y backend, espero crear soluciones innovadoras y dar forma al mundo digital.",
+        "goalOfWebsite":"El objetivo de este sitio web es mostrar mis habilidades y experiencias, atraer posibles empleadores o clientes y conectarme con la comunidad tecnológica.",
+        "techStackTitle":"Esta página web está construida con las siguientes tecnologías:",
+        "checkoutTitle":"Mira el código fuente en GitHub y visita mi perfil de LinkedIn:"
+    }
+}

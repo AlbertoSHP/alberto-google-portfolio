@@ -1,0 +1,10 @@
+.logo-search-container{
+    flex-grow: 1;
+  }
+
+@media (min-width: var(--breakpoint-md)) {
+  .logo-search-container{
+    flex-grow: 0;
+    width: 584px;
+  }
+}

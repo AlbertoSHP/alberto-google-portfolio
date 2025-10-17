@@ -1,0 +1,14 @@
+{
+    "language":{
+        "languageDetected":"Language detected:",
+        "english":"English"
+    },
+    "about":{
+        "aboutMe":"About me",
+        "welcome": "Welcome to my portfolio!",
+        "description":"Hello! I'm Alberto, a passionate Senior Frontend Developer based in Madrid, Spain. With extensive experience in developing modern web applications and a strong background in full-stack and backend development, I look forward to creating innovative solutions and shaping the digital world.",
+        "goalOfWebsite":"The goal of this website is to showcase my skills and experiences, attract potential employers or clients, and connect with the tech community.",
+        "techStackTitle":"This website is built with the following technologies:",
+        "checkoutTitle":"Check out the source code on GitHub and visit my LinkedIn profile:"
+    }
+}

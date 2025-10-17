@@ -1,0 +1,56 @@
+{
+  "Welcome": {
+    "title": "Wilkommen to Albert's Portfolio"
+  },
+  "Search": {
+    "resultType": {
+      "all": "Alle",
+      "experiences": "Erfahrungen",
+      "education": "Bildung",
+      "skills": "Fähigkeiten",
+      "projects": "Projekte",
+      "search": "Suche"
+    }
+  },
+  "months": {
+    "January": "Januar",
+    "February": "Februar",
+    "March": "März",
+    "April": "April",
+    "May": "Mai",
+    "June": "Juni",
+    "July": "Juli",
+    "August": "August",
+    "September": "September",
+    "October": "Oktober",
+    "November": "November",
+    "December": "Dezember",
+    "Current": "Aktuell"
+  },
+  "filters": {
+    "filterBy": "Filtern nach",
+    "sortBy": "Sortieren nach"
+  },
+  "skills": {
+    "levelTitle": "Niveau",
+    "typeTitle": "Type",
+    "levelAsc": "Niveau aufsteigend",
+    "levelDesc": "Niveau absteigend",
+    "typeAsc": "Typ aufsteigend",
+    "typeDesc": "Typ absteigend",
+    "beginner": "Anfänger",
+    "intermediate": "Mittelstufe",
+    "advanced": "Fortgeschritten",
+    "expert": "Experte"
+  },
+  "search": {
+    "placeholder": "Suche nach Fähigkeiten, Projekten, Erfahrung...",
+    "noResults": "Keine Ergebnisse gefunden",
+    "searchLabel": "Suche",
+    "feelingLucky": "Ich fühle mich glücklich",
+    "advice": "Tipp: Verwenden Sie Schlüsselwörter wie ",
+    "resultsFor": "Ergebnisse für",
+    "matchedKeywords": "Übereinstimmende Schlüsselwörter",
+    "resultsFound": "{{count}} Ergebnis gefunden"
+  }
+}

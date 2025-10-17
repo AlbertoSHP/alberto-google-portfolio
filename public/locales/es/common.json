@@ -1,0 +1,53 @@
+{
+  "Search": {
+    "resultType": {
+      "all": "Todo",
+      "experiences": "Experiencias",
+      "education": "Educación",
+      "skills": "Habilidades",
+      "projects": "Proyectos",
+      "search": "Buscar"
+    }
+  },
+  "months": {
+    "January": "Enero",
+    "February": "Febrero",
+    "March": "Marzo",
+    "April": "Abril",
+    "May": "Mayo",
+    "June": "Junio",
+    "July": "Julio",
+    "August": "Agosto",
+    "September": "Septiembre",
+    "October": "Octubre",
+    "November": "Noviembre",
+    "December": "Diciembre",
+    "Current": "Actual"
+  },
+  "filters": {
+    "filterBy": "Filtrar por",
+    "sortBy": "Ordenar por"
+  },
+  "skills": {
+    "levelTitle": "Nivel",
+    "typeTitle": "Tipo",
+    "levelAsc": "Nivel ascendente",
+    "levelDesc": "Nivel descendente",
+    "typeAsc": "Tipo ascendente",
+    "typeDesc": "Tipo descendente",
+    "beginner": "Principiante",
+    "intermediate": "Intermedio",
+    "advanced": "Avanzado",
+    "expert": "Experto"
+  },
+  "search": {
+    "placeholder": "Buscar habilidades, proyectos, experiencia...",
+    "noResults": "No se encontraron resultados",
+    "searchLabel": "Buscar",
+    "feelingLucky": "Voy a tener suerte",
+    "advice": "Consejo: Usa palabras clave como",
+    "resultsFor": "Resultados para: ",
+    "matchedKeywords": "Palabras clave coincidentes",
+    "resultsFound": "{{count}} resultados encontrados"
+  }
+}
