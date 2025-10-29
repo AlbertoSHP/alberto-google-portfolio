@@ -18,17 +18,17 @@ const SkillItem = ({ skill, resultMatches }: SkillItemProps) => {
     }}>
         <Stack direction={'row'} spacing={1} alignItems="center">
             <Box sx={{ width: '30%' }}>
-                <img src={'/images/'+skill.imageSrc} alt={skill.name} width={'100%'} />
+                <img data-testid="skill-image" src={'/images'+skill.imageSrc} alt={skill.name} width={'100%'} />
             </Box>
             <Grid spacing={1} sx={{ width: '70%' }}>
-                <Typography variant="body1" fontWeight="bold">
+                <Typography data-testid="skill-name" variant="body1" fontWeight="bold">
                     {skill.name}
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
+                <Typography data-testid="skill-type" variant="body2" color="text.secondary">
                     {skill.type}
                 </Typography>
                 <Stack direction="row" alignItems="center" width={'100%'} marginTop={1} spacing={0.5}>
-                    {[...Array(levels.get(skill.level))].map((_, i) => <Box key={i} sx={{ bgcolor: 'green', width: '20%', height: '2px' }} />)}
+                    {[...Array(levels.get(skill.level))].map((_, i) => <Box data-testid={`level-${i}`} key={i} sx={{ bgcolor: 'green', width: '20%', height: '2px' }} />)}
                 </Stack>
             </Grid>
         </Stack>

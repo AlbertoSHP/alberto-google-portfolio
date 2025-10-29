@@ -18,18 +18,18 @@ const EducationItem = ({ edu, index, resultMatches }: EducationItemProps) => {
         '&:hover': { boxShadow: "0px 2px 8px 4px rgb(6 6 6 / 8%)" },
     }}>
         <Stack direction={'row'} spacing={2} alignItems="center">
-            <img alt={edu.institution} src={'/images/'+edu.imageSrc} width={50} height={50} />
+            <img data-testid="education-image" alt={edu.institution} src={'/images'+edu.imageSrc} width={50} height={50} />
             <Stack>
-                <Typography variant="body1" fontWeight="bold">
+                <Typography data-testid="education-title" variant="body1" fontWeight="bold">
                     {edu.title} - {edu.institution}
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
+                <Typography data-testid="education-dates" variant="body2" color="text.secondary">
                     { t("months."+dayjs(edu.startDate).format('MMMM'))+" "+dayjs(edu.startDate).format('YYYY')} - {edu.endDate ? t("months."+dayjs(edu.endDate)?.format('MMMM'))+" "+dayjs(edu.endDate)?.format('YYYY') : t("months.Current")}
                 </Typography>
             </Stack>
         </Stack>
         <Stack alignItems={'flex-start'}>
-            <Link variant="body1" fontWeight="bold" href={edu.url} target="_blank" rel="noopener" sx={{ height: '20px' }}>
+            <Link data-testid="education-link" variant="body1" fontWeight="bold" href={edu.url} target="_blank" rel="noopener" sx={{ height: '20px' }}>
                 {edu.url}
             </Link>
         </Stack>

@@ -31,21 +31,21 @@ const ExperienceItem = ({ exp, keyIndex, setExpSelected, setChecked, resultMatch
         }}
     >
         <Stack direction={'row'} spacing={2} alignItems="center">
-            <img alt={exp.company} src={'/images'+exp.imageSrc} width={50} height={50} />
+            <img data-testid="experience-image" alt={exp.company} src={'/images'+exp.imageSrc} width={50} height={50} />
             <Stack>
-                <Typography variant="body1" fontWeight="bold">
+                <Typography data-testid="experience-title" variant="body1" fontWeight="bold">
                     {exp.position} - {exp.company}
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
+                <Typography data-testid="experience-dates" variant="body2" color="text.secondary">
                     { t("months."+dayjs(exp.startDate).format('MMMM'))+" "+dayjs(exp.startDate).format('YYYY')} - {exp.endDate ? t("months."+dayjs(exp.endDate)?.format('MMMM'))+" "+dayjs(exp.endDate)?.format('YYYY') : t("months.Current")}
                 </Typography>
             </Stack>
         </Stack>
         <Stack alignItems={'flex-start'}>
-            <Link variant="body1" fontWeight="bold" href={exp.url} target="_blank" rel="noopener" sx={{ height: '20px' }}>
+            <Link data-testid="experience-link" variant="body1" fontWeight="bold" href={exp.url} target="_blank" rel="noopener" sx={{ height: '20px' }}>
                 {exp.url}
             </Link>
-            <Typography variant="body2" paddingTop={1}>
+            <Typography data-testid="experience-description" variant="body2" paddingTop={1}>
                 {exp.description}
             </Typography>
         </Stack>

@@ -6,11 +6,12 @@ import RainbowEffectAvatarLayout from '../../../shared/components/RainbowEffectA
 
 const ProfileContent = () => {
   const { t } = useNavbarTranslations();
-  useBreakpoint();
   const { isMobile } = useBreakpoint();
 
   return (
-    <Box sx={{
+    <Box
+      data-testid="profile-content-box"
+      sx={{
         width: isMobile ? '100%' : "436px",
         borderRadius: "28px",
         backgroundColor: "#cedfed",

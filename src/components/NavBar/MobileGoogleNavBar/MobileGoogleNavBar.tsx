@@ -16,6 +16,7 @@ const MobileGoogleNavBar = () => {
   const { isCVPage } = useAppNavigate();
   return (
     <Stack
+      data-testid="mobile-google-navbar"
       className='mobile-google-navbar'
       alignItems={ "center"}
       justifyContent={"flex-end"}
