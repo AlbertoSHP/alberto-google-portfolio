@@ -20,6 +20,7 @@ const StandardGoogleNavBar = () => {
   
   return (
     <Stack
+      data-testid="standard-google-navbar"
       className='standard-google-navbar'
       alignItems={ "center"}
       justifyContent={isCVPage ? "space-between" : "flex-end"}
@@ -50,6 +51,7 @@ const StandardGoogleNavBar = () => {
       }
       <Stack direction={'row'} spacing={2} alignItems={'center'}>
         <IconButton
+          data-testid="standard-google-navbar-shortcut-button"
           onClick={(event) => {
                   setAnchorEl(event.currentTarget);
                   setOpenShortcut(true);
@@ -58,6 +60,7 @@ const StandardGoogleNavBar = () => {
           <span className="material-icons">apps</span>
         </IconButton>
           <IconButton
+            data-testid="standard-google-navbar-profile-button"
             onClick={(event) => {
               setProfileAnchorEl(event.currentTarget as HTMLButtonElement);
                       setOpenProfile(true);

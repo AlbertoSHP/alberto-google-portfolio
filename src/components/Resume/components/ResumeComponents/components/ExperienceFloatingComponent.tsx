@@ -19,6 +19,7 @@ const ExperienceFloatingComponent = ({ expSelected, setChecked }: ExperienceFloa
   const { isNavbarLimitReached } = useScroll()
   return (
     <Paper
+        data-testid="experience-floating-component"
         elevation={2}
         sx={{ 
             width: isMobile ? '100%' : '370px',
@@ -43,23 +44,23 @@ const ExperienceFloatingComponent = ({ expSelected, setChecked }: ExperienceFloa
             <span className="material-icons" style={{ cursor: 'pointer', color: 'gray' }} onClick={() => setChecked(false)}>close</span>
             </Box>
             <Stack direction={'row'} spacing={2} alignItems="center" mb={2} mt={2}>
-            <img src={`/images/${expSelected?.imageSrc}`} alt={expSelected?.company} width={50} height={50} />
+            <img data-testid="floating-experience-image" src={`/images/${expSelected?.imageSrc}`} alt={expSelected?.company} width={50} height={50} />
             <Box>
-                <Typography variant="h6" fontWeight="bold">
+                <Typography data-testid="floating-experience-company" variant="h6" fontWeight="bold">
                     {expSelected?.company}
                 </Typography>
-                <Link variant="body1" fontWeight="bold" href={expSelected?.url} target="_blank" rel="noopener" sx={{ height: '20px' }}>
+                <Link data-testid="floating-experience-url" variant="body1" fontWeight="bold" href={expSelected?.url} target="_blank" rel="noopener" sx={{ height: '20px' }}>
                     {expSelected?.url}
                 </Link>
             </Box>
             </Stack>
-            <Typography variant="body2" color="text.secondary">
+            <Typography data-testid="floating-experience-position" variant="body2" color="text.secondary">
                 {expSelected?.position} - {expSelected?.company}
             </Typography>
-            <Typography variant="body2" color="text.secondary" mb={2}>
+            <Typography data-testid="floating-experience-dates" variant="body2" color="text.secondary" mb={2}>
                 {expSelected && `${dayjs(expSelected.startDate).format('MMMM YYYY')} - ${expSelected.endDate ? dayjs(expSelected.endDate)?.format('MMMM YYYY') : 'Current'}`}
             </Typography>
-            <Typography variant="body2" mb={2}>
+            <Typography data-testid="floating-experience-description" variant="body2" mb={2}>
                 {expSelected?.description}
             </Typography>
             <Divider />

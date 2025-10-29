@@ -14,6 +14,7 @@ const GoogleFooterBar = () => {
         background: "#cedfed4a"
       }}>
       <Box
+        data-testid="footer-language-detected"
         className="footer-item" sx={{
         display: 'flex',
         }}
@@ -30,6 +31,7 @@ const GoogleFooterBar = () => {
         </Typography>
       </Box>
       <Box
+        data-testid="footer-about-me-button"
         onClick={() => setOpenAboutMeModal(true)}
         sx={{
           '&:hover': {textDecoration: 'underline',
